@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="icon" href="src/imagens/imagens/icon.png" type="icon/png">
+
+</head>
+<body>
+<header class="cabecalho">
+    <img class="logo"  src="src/imagens/imagens/logomarvel.png" alt="logo do vingadores"/>
+</header>
+
+<main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Escolha seu herói</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="homemdeferro" data-name="Homem de Ferro" data-description="O Homem de Ferro possui uma armadura motorizada que lhe dá voo, força e durabilidade sobre-humanas e uma variedade de armas. Ele é capaz de levantar até 100 toneladas ao usar sua armadura.">
+          <img
+            src="src/imagens/imagens/homemdeferrocard.jpg"
+            alt="Personagem Homem de Ferro"
+          />
+        </li>
+        <li class="personagem" id="blackpantercard" data-name="Pantera Negra" data-description="O Pantera Negra tem todas as habilidades de um gato gigante da selva: ele se move com a mesma furtividade e poder, pode subir em árvores e assim por diante, e usa uma roupa preta que esconde sua identidade.Sua força física está entre levantar até 7 toneladas, embora os limites não sejam realmente conhecidos.">
+          <img
+            src="src/imagens/imagens/blackpantercard.jpg"
+            alt="Personagem Pantera Negra"
+          />
+        </li>
+
+        <li class="personagem" id="doctorcard" data-name="Doutor Estranho" data-description="O Doutor Strange possui domínio das artes místicas que lhe permite fazer encantamentos, inclusive magia negra. Manipulação das energias magicas da realidade para uma quantidade quase infinita de efeitos. Stephen tem mais poder de fogo do que qualquer mutante imagina: ele é o Mago Supremo da Terra!">
+          <img
+            src="src/imagens/imagens/doctorcard.jpg"
+            alt="Personagem Doutor Estranho"
+          />
+        </li>
+
+        <li class="personagem" id="spidercard" data-name="Homem-Aranha" data-description=" O Homem-Aranha tem força sobre-humana, proporcional à de uma aranha, pode fixar-se a paredes e tetos, incrível agilidade e possui um “sentido de aranha” que o avisa sobre o perigo. Um químico fantástico, criou uma teia de aranha artificial, que pode usar para balançar-se entre prédios e prender vilões.">
+          <img
+            src="src/imagens/imagens/spidercard.jpg"
+            alt="Personagem Homem-Aranha"
+          />
+        </li>
+
+        <li class="personagem" id="blackwidowcard" data-name="Viúva Negra" data-description="Ela fala pelo menos 11 idiomas, pode hackear as redes de computadores mais avançadas do mundo e possui um domínio da linguagem corporal tão completo que poderia até enganar o Treinador.">
+          <img
+            src="src/imagens/imagens/blackwidowcard.jpg"
+            alt="Personagem Viúva Negra"
+          />
+        </li>
+
+        <li class="personagem" id="captainncard" data-name="Capitão América" data-description=" Um dos melhores lutadores do mundo, Rogers conhece inúmeras técnicas de combate corpo-a-corpo, mesmo se não tem superpoderes. Porém, graças ao soro do Supersoldado, é dono de força, agilidade, resistência, reflexos e capacidade de cura superiores aos dos seres humanos normais.">
+          <img
+            src="src/imagens/imagens/captainncard.jpg"
+            alt="Personagem Capitão América"
+          />
+        </li>
+
+        <li class="personagem" id="deadpoolcard" data-name="Deadpool" data-description=" Devido ao projeto Arma X Wade teve sua força aumentada a tal ponto que é impossível que outro humano possa conseguir, também teve seus reflexos melhorados, tendo um tempo de reação a golpes extraordinário, sagaz e habilidoso, já enganou até mesmo os sentidos do Demolidor. Vida eterna, super força, imunidade à telepatia, super-agilidade, resistência, teletransporte, entre outros">
+          <img
+            src="src/imagens/imagens/deadpoolcard.jpg"
+            alt="Personagem Deadpool"
+          />
+        </li>
+
+        <li class="personagem" id="thorrRcard" data-name="Thor" data-description="Thor é virtualmente um deus de outra realidade, possuindo vastos poderes. Desta maneira, possui uma enorme força e velocidade sobre-humanas. Também é capaz de controlar os elementos da tempestade, gerando trovões, relâmpagos, raios, furacões e geadas. Além de possuir armas poderosas, como o martelo mágico Mjölnir.">
+          <img
+            src="src/imagens/imagens/thorrRcard.jpg"
+            alt="Personagem Thor"
+          />
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img
+        class="personagem-grande"
+        src="src/imagens/imagens/homemdeferrocard.png"
+        alt="Personagem Selecionado"
+      />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Homem de Ferro</h2>
+        <p class="descricao-personagem" id="descricao-personagem">O Homem de Ferro possui uma armadura motorizada que lhe dá voo, força e durabilidade sobre-humanas e uma variedade de armas. Ele é capaz de levantar até 100 toneladas ao usar sua armadura.
+     
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="src/js/index.js"></script>
+</body>
+</html>
